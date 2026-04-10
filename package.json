@@ -1,0 +1,32 @@
+{
+  "name": "caisah-skills",
+  "version": "0.0.1",
+  "description": "Caisah's Agent Skills",
+  "scripts": {
+    "fmt": "oxfmt ."
+  },
+  "devDependencies": {
+    "oxfmt": "^0.43.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "agents": {
+    "skills": [
+      {
+        "name": "git-commit",
+        "path": "./git-commit/SKILL.md",
+        "requirements": {
+          "node": ">=18.0.0"
+        }
+      },
+      {
+        "name": "simplifying-code",
+        "path": "./simplifying-code/SKILL.md",
+        "requirements": {
+          "node": ">=18.0.0"
+        }
+      }
+    ]
+  }
+}
